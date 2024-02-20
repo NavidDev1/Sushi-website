@@ -10,7 +10,7 @@
 }
 
 :root {
-  --main-color: #ff450d;
+  --main-color: #ff3131;
   --text-color: #ffff;
   --other-color: #212121;
   --second-color: #9e9e9e;
@@ -79,7 +79,7 @@ header {
   padding: 8px 15px;
   background: var(--main-color);
   border-radius: 3rem;
-  box-shadow: #ff9f0d 0px 1px 25px;
+  box-shadow: #ff3131 0px 1px 25px;
 }
 
 .nav-icons i {
