@@ -10,8 +10,8 @@
 }
 
 :root {
-  --main-color: #ff9f0d;
-  --text-color: #fff;
+  --main-color: #ff450d;
+  --text-color: #ffff;
   --other-color: #212121;
   --second-color: #9e9e9e;
   --bg-color: #111111;
@@ -19,4 +19,86 @@
   --big-font: 4.5rem;
   --h2-font: 2.6rem;
   --p-font: 1.1rem;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  display: flex;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 30px 14%;
+  transition: all 0.5s ease;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.logo i {
+  vertical-align: middle;
+  margin-right: 8px;
+  color: var(--main-color);
+}
+
+.navlist {
+  display: flex;
+}
+
+.navlist a {
+  color: var(--text-color);
+  font-size: var(--p-font);
+  font-weight: 600;
+  margin: 0 30px;
+  transition: all 0.5s ease;
+}
+
+.navlist a:hover {
+  color: var(--main-color);
+}
+
+.navlist a.active {
+  color: var(--main-color);
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  background: var(--main-color);
+  border-radius: 3rem;
+  box-shadow: #ff9f0d 0px 1px 25px;
+}
+
+.nav-icons i {
+  vertical-align: middle;
+  font-size: 25px;
+  color: var(--bg-color);
+  margin-right: 8px;
+  margin-left: 5px;
+  transition: all 0.5s ease-in;
+}
+
+.nav-icons i:hover {
+  color: var(--text-color);
+  transform: scale(1.1);
+}
+#menu-icon {
+  font-size: 32px;
+  color: var(--bg-color);
+  z-index: 1001;
+  cursor: pointer;
+  display: none;
 }
