@@ -142,5 +142,32 @@ section {
   font-weight: 500;
   letter-spacing: 1px;
   border-radius: 3rem;
-  transition: all 0.5 ease-in-out;
+  transition: all 0.5s ease;
+}
+
+.btn-menu i {
+  vertical-align: middle;
+  margin-left: 9px;
+  font-size: 22px;
+}
+
+.btn-menu:hover {
+  background: var(--main-color);
+  color: var(--bg-color);
+  box-shadow: #ff3131 0px 1px 25px;
+}
+
+.btn-order-now {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: var(--p-font);
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-bottom: 3px solid var(--main-color);
+  color: var(--main-color);
+  transition: all 0.5s ease;
+}
+
+.btn-order-now:hover {
+  transform: scale(1.1) translateX(12px);
 }
