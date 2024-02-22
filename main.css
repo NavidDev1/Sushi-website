@@ -171,3 +171,14 @@ section {
 .btn-order-now:hover {
   transform: scale(1.1) translateX(12px);
 }
+
+header.sticky {
+  padding: 12px 14%;
+  background: var(--other-color);
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  /* Add other styles as needed */
+}
