@@ -182,3 +182,40 @@ header.sticky {
   z-index: 1000;
   /* Add other styles as needed */
 }
+
+.container {
+  padding: 30px 14% 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 2rem;
+  text-align: center;
+}
+
+.container-box {
+  padding: 43px 43px 43px 43px;
+  background-color: var(--other-color);
+  border-radius: 3rem;
+}
+
+.container-box img {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+}
+
+.container-box h3 {
+  font-size: 21px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.container-box a {
+  color: var(--second-color);
+  font-size: var(--p-font);
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+.container-box a:hover {
+  color: var(--main-color);
+}
