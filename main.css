@@ -37,6 +37,7 @@ header {
   background: transparent;
   padding: 30px 14%;
   transition: all 0.5s ease;
+  position: fixed;
 }
 
 .logo {
@@ -282,9 +283,20 @@ header.sticky {
   color: var(--main-color);
 }
 
-.email {
-  width: 50px;
-  height: 50px;
+.email i {
+  font-size: 50px;
+}
+
+.email i:hover {
+  color: var(--text-color);
+}
+
+.social i {
+  font-size: 50px;
+}
+
+.social i:hover {
+  color: var(--text-color);
 }
 
 .menu-content {
@@ -350,6 +362,7 @@ header.sticky {
   #menu-icon {
     display: initial;
   }
+
   .navlist {
     position: absolute;
     top: -1000px;
@@ -401,7 +414,7 @@ header.sticky {
     height: 118vh;
   }
   .home-text {
-    padding-top: 60px;
+    padding-top: 100px;
   }
   .home-img {
     text-align: center;
