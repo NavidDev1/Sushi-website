@@ -284,7 +284,7 @@ header.sticky {
 }
 
 .email i {
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .email i:hover {
@@ -292,7 +292,8 @@ header.sticky {
 }
 
 .social i {
-  font-size: 50px;
+  font-size: 35px;
+  padding: 10px;
 }
 
 .social i:hover {
