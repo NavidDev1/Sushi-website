@@ -376,12 +376,64 @@ header.sticky {
 
 @media (max-width: 1045px) {
   :root {
-    --big-font: 4rem;
-    --h2-font: 2.2rem;
-    --p-font: 15px;
+    --big-font: 3.3rem;
+    --h2-font: 2rem;
+  }
+  .home-img img {
+    width: 100%;
+    max-width: 490px;
+    height: auto;
+  }
+  .about-img img {
+    width: 100%;
+    max-width: 490px;
+    height: auto;
+  }
+
+  .home {
+    height: 70vh;
   }
 }
 
+@media (max-width: 860px) {
+  .home {
+    grid-template-columns: 1fr;
+    height: 118vh;
+  }
+  .home-text {
+    padding-top: 60px;
+  }
+  .home-img {
+    text-align: center;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+  }
+  .about-img {
+    text-align: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .contact-text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 475px) {
+  :root {
+    --big-font: 2.8rem;
+    --h2-font: 2rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .home {
+    height: 110vh;
+    gap: 0.1rem;
+  }
+}
 /* #menu {
   padding: 20px 5% 20px;
 } */
