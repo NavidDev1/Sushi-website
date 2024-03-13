@@ -1,7 +1,8 @@
 Aloha Poke & Sushi
-Välkommen till källkoden för Aloha Poke & Sushi, en dynamisk och användarvänlig webbplats skapad för att visa upp menyn och erbjuda enkel kontaktinformation till våra kunder. Webbplatsen är utformad med en modern estetik och responsiv layout för att säkerställa en utmärkt användarupplevelse på alla enheter.
 
-Funktioner
+En dynamisk och användarvänlig webbplats skapad för att visa upp menyn och erbjuda enkel kontaktinformation till våra kunder. Webbplatsen är utformad med en modern estetik och responsiv layout för att säkerställa en utmärkt användarupplevelse på alla enheter.
+
+Funktioner:
 Webbplatsen inkluderar följande huvudfunktioner:
 
 Hem: En välkomnande landingssida som framhäver vårt varumärke och uppmanar besökare att utforska vår meny eller beställa direkt.
@@ -21,6 +22,6 @@ För att sätta upp och köra projektet lokalt, följ dessa steg:
 Klona repot med:
 sh
 Copy code
-git clone [URL-till-ditt-repo]
+git clone
 Öppna index.html i din favoritwebbläsare.
 Inga ytterligare installationer eller byggsteg krävs för att köra projektet i dess nuvarande form.
