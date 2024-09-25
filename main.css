@@ -196,6 +196,7 @@ header.sticky {
   padding: 43px 43px 43px 43px;
   background-color: var(--other-color);
   border-radius: 3rem;
+  z-index: 1;
 }
 
 .container-box img {
