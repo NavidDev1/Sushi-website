@@ -300,6 +300,15 @@ header.sticky {
   color: var(--text-color);
 }
 
+.devBy {
+  font-size: 15px;
+  padding: 10px;
+  color: var(--main-color);
+}
+
+.devBy i {
+  font-size: 15px;
+}
 .menu-content {
   display: flex;
   flex-wrap: wrap;
