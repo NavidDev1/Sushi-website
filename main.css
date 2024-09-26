@@ -338,6 +338,7 @@ header.sticky {
 }
 
 .scroll {
+  display: none; /* Hide arrow initially */
   position: fixed;
   bottom: 2.2rem;
   border-top: 2rem;
