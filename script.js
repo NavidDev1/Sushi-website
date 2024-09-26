@@ -9,7 +9,7 @@ window.addEventListener('scroll', function () {
   header.classList.toggle('sticky', window.scrollY > 60);
 
   // Show scroll arrow when scrolled 100px or more
-  if (window.scrollY > 100) {
+  if (window.scrollY > 900) {
     scrollArrow.style.display = 'block'; // Show the arrow
   } else {
     scrollArrow.style.display = 'none'; // Hide the arrow
