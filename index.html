@@ -3,7 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aloha poke & Sushi</title>
+    <meta name="description" content="Upplev det bästa av japansk sushi och poke bowls på Aloha Poke & Sushi i Kullavik. Beställ online och njut av våra fräscha rätter idag!" />
+
+    <title>Aloha poke & Sushi  | Äkta Japansk Smak i Kullavik</title>
+    
+        <!-- Add your structured data here -->
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Restaurant",
+            "name": "Aloha Poke & Sushi",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Kyviksäng 47",
+              "addressLocality": "Kullavik",
+              "postalCode": "429 30",
+              "addressCountry": "SE"
+            },
+            "telephone": "+46 70 166 96 39",
+            "menu": "https://www.alohapokesushi.se/menu",
+            "servesCuisine": "Japanese, Sushi",
+            "openingHours": "Tu-Fr 11:00-21:00, Sa 12:00-21:00, Su 12:00-20:00"
+          }
+          </script>
+    
     <!---Style--->
     <link rel="stylesheet" href="main.css" />
 
@@ -23,7 +46,7 @@
   </head>
   <body>
     <header>
-      <a href="https://www.alohapokesushi.se" class="logo"> <img src="./assets/logo.png" alt="" class="logo-pic"></a>
+      <a href="https://www.alohapokesushi.se" class="logo"> <img src="./assets/logo.png" alt="Aloha Poke & Sushi logotyp" class="logo-pic"></a>
 
       <ul class="navlist">
         <li><a href="#home" class="active">Hem</a></li>
@@ -35,7 +58,7 @@
       <div class="nav-icons">
         
         
-        <a href="https://qopla.com/restaurant/aloha-poke-&-sushi/qDQeK8PQMD/order"> <i class="bx bx-cart"></i></a>
+        <a href="https://qopla.com/restaurant/aloha-poke-&-sushi/qDQeK8PQMD/order" target="_blank" rel="noopener noreferrer"> <i class="bx bx-cart"></i></a>
         
         <div class="bx bx-menu" id="menu-icon"></div>
       </div>
@@ -49,10 +72,10 @@
           Vår Meny <i class="bx bx-book-open"></i>
         </a>
 
-        <a href="https://qopla.com/restaurant/aloha-poke-&-sushi/qDQeK8PQMD/order" class="btn-order-now"> Beställ Här</a>
+        <a href="https://qopla.com/restaurant/aloha-poke-&-sushi/qDQeK8PQMD/order" target="_blank" rel="noopener noreferrer" class="btn-order-now"> Beställ Här</a>
       </div>
       <div class="home-img">
-        <img src="./assets/home-pic.png" alt="welcome picture" />
+        <img src="./assets/home-pic.png" alt="pokebowl" />
       </div>
     </section>
     <!---container --->
@@ -83,7 +106,7 @@
 
     <section class="about" id="about">
       <div class="about-img">
-        <img src="./assets/about-pic.png" alt="picture of a shushi plate" />
+        <img src="./assets/about-pic.png" alt="en tallrik sushi" />
       </div>
       <div class="about-text">
         <h2>
@@ -100,8 +123,10 @@
           Vi skapar inte bara mat – vi skapar en upplevelse, och vår mysiga restaurang i Kullavik är den perfekta platsen för att koppla av och njuta av en middag med familj och vänner. 
           Vi ser fram emot att välkomna dig till vår värld av smaker, där varje tugga tar dig närmare kärnan av det japanska köket, med en modern twist.
         </p>
-        <a href="https://qopla.com/restaurant/aloha-poke-&-sushi/qDQeK8PQMD/order" class="btn-order-now"> Beställ Här</a>
+        <a href="https://qopla.com/restaurant/aloha-poke-&-sushi/qDQeK8PQMD/order" target="_blank" rel="noopener noreferrer" class="btn-order-now"> Beställ Här
+
         </a>
+        
       </div>
     </section>
     <!---our menu --->
@@ -113,15 +138,15 @@
 
       <div class="menu-content">
         
-          <img src="./assets/menu-1.png" alt="" />
+          <img src="./assets/menu-1.png" alt="aloha sushi rolls" />
        
 
         
-          <img src="./assets/menu-2.png" alt="" />
+          <img src="./assets/menu-2.png" alt="moriwase meny" />
         
 
        
-          <img src="./assets/menu-3.png" alt="" />
+          <img src="./assets/menu-3.png" alt="poke bowl sushi menu" />
         
       </div>
     </section>
@@ -132,9 +157,9 @@
         <div class="contact-text">
           <h1>Kontakta Oss</h1>
           <p>Välkommen till Aloha Poke & Sushi – din destination för utsökt sushi och härliga poke bowls i Kullavik! Vi är här för att erbjuda dig en oförglömlig matupplevelse med färska ingredienser och smakrika rätter. Tveka inte att kontakta oss för frågor, feedback eller för att göra en beställning. Nedan hittar du all information du behöver för att komma i kontakt med oss.
-            För catering gäller bokning minst 24 timmar innan.
-          Vare sig du är sugen på en läcker poke bowl till lunch eller en sushimiddag, är vi här för att tillgodose dina önskemål. </p>
-          
+         
+         <br> Vare sig du är sugen på en läcker poke bowl till lunch eller en sushimiddag, är vi här för att tillgodose dina önskemål. </p>
+         <br> <span class="contact-catering">För catering gäller bokning minst 24 timmar innan.</span>
             <p>Med vänliga hälsningar,<br>
             Teamet på Aloha Poke & Sushi</p>
           
@@ -174,11 +199,12 @@
           
     
         </div>
+        <div class="devBy">
+          Produced by BaviDev <i class='bx bx-code-curly' ></i>
+        </div>
       </div>
 
-      <div class="devBy">
-        Produced by BaviDev <i class='bx bx-code-curly' ></i>
-      </div>
+  
       </div>
 
      

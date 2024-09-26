@@ -197,12 +197,17 @@ header.sticky {
   background-color: var(--other-color);
   border-radius: 3rem;
   z-index: 1;
+  transition: transform 0.3s ease; /* Smooth transition */
 }
 
 .container-box img {
   width: 100%;
   max-width: 50px;
   height: auto;
+}
+
+.container-box:hover {
+  transform: scale(1.08); /* Scale up slightly on hover */
 }
 
 .container-box h3 {
@@ -215,7 +220,7 @@ header.sticky {
   color: var(--second-color);
   font-size: var(--p-font);
   letter-spacing: 1px;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 
 .container-box a:hover {
@@ -287,6 +292,9 @@ header.sticky {
   margin: 20px 0;
 }
 .contact-info a {
+  color: var(--main-color);
+}
+.contact-catering {
   color: var(--main-color);
 }
 
