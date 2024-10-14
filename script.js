@@ -1,7 +1,7 @@
 const scrollArrow = document.querySelector('.scroll'); // Select the scroll arrow
 const header = document.querySelector('header'); // Select the header
 const menuIcon = document.querySelector('#menu-icon'); // Select the menu icon
-const navlist = document.querySelector('.navlist'); // Select the nav list
+const navLinks = document.querySelectorAll('.navlist a'); // Select all nav links
 
 // Show/hide the scroll arrow and apply sticky header
 window.addEventListener('scroll', function () {
@@ -16,6 +16,17 @@ window.addEventListener('scroll', function () {
   }
 });
 
+// Loop through each link for dynamic 'active' class
+navLinks.forEach((link) => {
+  link.addEventListener('click', function () {
+    // Remove active class from all links
+    navLinks.forEach((link) => link.classList.remove('active'));
+
+    // Add 'active' class to the clicked link
+    this.classList.add('active');
+  });
+});
+
 // Scroll to top when arrow is clicked
 scrollArrow.addEventListener('click', function (e) {
   e.preventDefault();
@@ -28,11 +39,11 @@ scrollArrow.addEventListener('click', function (e) {
 // Mobile menu toggle logic
 menuIcon.addEventListener('click', function () {
   menuIcon.classList.toggle('bx-x'); // Change the menu icon to an 'X'
-  navlist.classList.toggle('open'); // Toggle the visibility of the navigation menu
+  document.querySelector('.navlist').classList.toggle('open'); // Toggle the visibility of the navigation menu
 });
 
 // Close the mobile menu when scrolling
 window.addEventListener('scroll', function () {
   menuIcon.classList.remove('bx-x'); // Reset the menu icon
-  navlist.classList.remove('open'); // Hide the navigation menu
+  document.querySelector('.navlist').classList.remove('open'); // Hide the navigation menu
 });

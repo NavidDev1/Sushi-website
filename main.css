@@ -204,6 +204,7 @@ header.sticky {
   width: 100%;
   max-width: 50px;
   height: auto;
+  justify-content: center;
 }
 
 .container-box:hover {
