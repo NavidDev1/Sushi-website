@@ -207,6 +207,22 @@ header.sticky {
   justify-content: center;
 }
 
+.hours {
+  display: grid;
+  grid-template-columns: auto auto; /* One column for days, one for times */
+  gap: 5px 20px; /* Adjust the gap between items */
+  justify-content: center;
+}
+
+.day {
+  text-align: right;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.time {
+  text-align: left;
+}
 .container-box:hover {
   transform: scale(1.08); /* Scale up slightly on hover */
 }
